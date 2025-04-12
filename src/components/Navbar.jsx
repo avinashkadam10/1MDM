@@ -1,6 +1,6 @@
 import React from "react";
 import TopNavbar from "./TopNavbar";
-import logo from "/assets/1mdm-168x58.png";
+import logo from "../assets/1mdm-168x58.png";
 
 function Navbar() {
   return (
