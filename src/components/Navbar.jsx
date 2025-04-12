@@ -1,5 +1,6 @@
 import React from "react";
 import TopNavbar from "./TopNavbar";
+import logo from "src/assets/1mdm-168x58.png";
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img src="src\assets\1mdm-168x58.png" alt="" />
+            <img src={logo} alt="" />
           </a>
           <button
             className="navbar-toggler"
