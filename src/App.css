@@ -1,0 +1,114 @@
+
+*{
+  font-family: poppins, sans-serif;
+}
+
+
+/* TOPNAV STYLING */
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+/* HERO SECTION STYLING */
+
+.hero{
+  background-image: url('assets/seller-banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 550px;  
+}
+
+.hero-content{
+  padding-top: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.para{
+  font-size: 34px;
+  font-weight: 300;
+}
+.hero-content h1{
+  font-size: 36px;
+  font-weight: 900;
+}
+.hero-side{
+  padding-left: 250px;
+  
+}
+.about{
+  margin-left: 550px;
+}
+.btn{
+  border-radius: 0 10px 0 10px;
+  padding: 8px;
+  background-color: #FF0000;
+  color: #fff;
+}
+.btn1{
+  border-radius: 0 10px 0 10px;
+  padding: 8px;
+  border: 1px solid #f00;
+  color: #FF0000;
+  margin: 16px;
+}
+
+
+/* carousel */
+
+.carouselinner{
+  background-color: #fff;
+}
+
+.paraStories{
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.arrow{
+  color: #FF0000;
+  background-attachment: #FF0000;
+  padding-top: 300px;
+  padding-right: 20px;
+}
+
+/* CTA */ 
+
+#bannerCTA{
+  background-image: url('assets/download.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.btnCTA, .btn1CTA{
+  background-color: #fff;
+  color: #FF0000;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 16px;
+  border: 1px solid #FF0000;
+}
+.btn1CTA{
+  background-color: transparent;
+  border: 1px solid #FFF;
+  color: #fff;
+}
+
+/*  */
+.list{
+  color: #fff;
+}
+.list a{
+  list-style: none;
+  text-decoration: none;
+  color: #c7afaf;
+  gap: 10px;
+} 
